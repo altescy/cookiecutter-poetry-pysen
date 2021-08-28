@@ -1,4 +1,4 @@
 {
   "package_name": "package_name",
-  "author": "author"
+  "author": "author <author@example.com>"
 }
