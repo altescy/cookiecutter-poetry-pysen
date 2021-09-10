@@ -1,4 +1,5 @@
 {
   "package_name": "package_name",
+  "module_name": "{{ cookiecutter.package_name|replace('-', '_') }}",
   "author": "author <author@example.com>"
 }

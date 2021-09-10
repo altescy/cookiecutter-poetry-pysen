@@ -2,7 +2,7 @@ PWD      := $(shell pwd)
 PYTHON   := poetry run python
 PYTEST   := poetry run pytest
 PYSEN    := poetry run pysen
-MODULE   := {{cookiecutter.package_name}}
+MODULE   := {{cookiecutter.module_name}}
 
 .PHONY: all
 all: format lint test
