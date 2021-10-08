@@ -10,7 +10,7 @@ cookiecutter https://github.com/altescy/cookiecutter-poetry-pysen.git
 
 ## Usage
 
-1. Generates a project directory with cookiecutter
+1. Generate a project directory with cookiecutter
 ```
 ❯ cookiecutter https://github.com/altescy/cookiecutter-poetry-pysen.git
 package_name [package_name]: your-package
