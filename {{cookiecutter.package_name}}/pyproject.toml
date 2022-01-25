@@ -9,8 +9,12 @@ python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 python-language-server = "^0.36.2"
-pysen = {version = "^0.10.1", extras = ["lint"]}
 pytest = "^6.2.4"
+pysen = {version = "^0.10.1"}
+black = "^21.12b0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+mypy = "^0.931"
 
 [tool.pysen]
 version = "0.10"
