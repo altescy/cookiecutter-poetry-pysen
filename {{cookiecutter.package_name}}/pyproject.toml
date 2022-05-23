@@ -11,10 +11,10 @@ python = "^3.8"
 python-language-server = "^0.36.2"
 pytest = "^6.2.4"
 pysen = {version = "^0.10.1"}
-black = "^21.12b0"
+black = "^22.3.0"
 isort = "^5.10.1"
 flake8 = "^4.0.1"
-mypy = "^0.931"
+mypy = "^0.950"
 
 [tool.pysen]
 version = "0.10"
