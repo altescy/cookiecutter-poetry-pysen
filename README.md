@@ -1,6 +1,10 @@
 cookiecutter-poetry-pysen
 =========================
 
+[![Actions Status](https://github.com/altescy/cookiecutter-poetry-pysen/workflows/CI/badge.svg)](https://github.com/altescy/cookiecutter-poetry-pysen/actions/workflows/ci.yml)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/altescy/cookiecutter-poetry-pysen)](https://github.com/altescy/cookiecutter-poetry-pysen/releases)
+[![License](https://img.shields.io/github/license/altescy/cookiecutter-poetry-pysen)](https://github.com/altescy/cookiecutter-poetry-pysen/blob/main/LICENSE)
+
 This repository provides a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template with [poetry](https://python-poetry.org/) and [pysen](https://github.com/pfnet/pysen).
 
 ```
