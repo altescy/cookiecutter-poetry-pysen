@@ -24,4 +24,4 @@ jobs:
         pip install --upgrade poetry cookiecutter
 
     - name: Test
-      run: bash ./scripts/test_generate_template.sh
+      run: bash ./tests/test_generate_template.sh
