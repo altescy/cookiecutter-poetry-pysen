@@ -5,7 +5,7 @@ description = ""
 authors = ["{{cookiecutter.author}}"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8.1,<4.0"
 
 [tool.poetry.dev-dependencies]
 python-language-server = "^0.36.2"
