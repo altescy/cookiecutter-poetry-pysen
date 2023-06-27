@@ -4,10 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["{{cookiecutter.author}}"]
 
+[[tool.poetry.source]]
+name = "pypi"
+priority = "primary"
+
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 python-language-server = "^0.36.2"
 pytest = "^7.3.1"
 pysen = "^0.10.4"
