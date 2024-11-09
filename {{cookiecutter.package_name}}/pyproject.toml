@@ -13,12 +13,12 @@ python = ">=3.10,<4.0"
 
 [tool.poetry.group.dev.dependencies]
 python-language-server = "^0.36.2"
-pytest = "^7.4.4"
+pytest = "^8.3.3"
 pysen = "^0.11.0"
-black = "^23.12.1"
+black = "^24.0.0"
 isort = "^5.13.2"
-flake8 = "^5.0.4"
-mypy = "^1.10.0"
+flake8 = "^7.1.1"
+mypy = "^1.13.0"
 
 [tool.pysen]
 version = "0.11"
