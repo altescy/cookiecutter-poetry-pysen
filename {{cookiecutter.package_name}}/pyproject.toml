@@ -19,6 +19,15 @@ isort = "^5.13.2"
 flake8 = "^7.1.1"
 mypy = "^1.13.0"
 
+[tool.poetry.group.lsp]
+optional = true
+
+[tool.poetry.group.lsp.dependencies]
+python-lsp-server = { version="^1.12.0", extras=["flake8", "pylint"] }
+pylsp-mypy = "^0.6.9"
+python-lsp-isort = "^0.2.0"
+python-lsp-black = "^2.0.0"
+
 [tool.pysen]
 version = "0.11"
 
